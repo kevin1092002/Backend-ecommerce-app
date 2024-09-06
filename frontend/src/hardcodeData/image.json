@@ -1,0 +1,18 @@
+[
+   
+    {
+        "id":1,
+        "image":"https://www.nme.com/wp-content/uploads/2022/02/mxmtoon-mona-lisa-single-strut-entertainment@2000x1270.jpg",
+        "text":"Art"
+    },
+    {
+        "id":2,
+        "image":"https://images2.alphacoders.com/132/1325574.png",
+        "text":"Photography"
+    },
+    {
+        "id":3,
+        "image":"https://as2.ftcdn.net/v2/jpg/05/65/64/67/1000_F_565646738_16aPBSad95Y3R75cHQtiwlJQ036oSUKW.jpg",
+        "text":"Anime"
+    }
+]
