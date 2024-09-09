@@ -61,6 +61,7 @@ const Info = () => {
           setItemName(itemArray.name);
           setMessage("success")
           setShowAlert(true) 
+          handleDirect("/home")
         }
         // Add the item to the cart in local storage
       } catch (error) {
@@ -105,7 +106,7 @@ const Info = () => {
                 severity={message}
                 sx={{ width: "100%" }}
               >
-                {error ? error : `Successfully bought ${respsoneName}`} 
+                {error ? error : `Successfully delete ${respsoneName}`} 
                 {/* Set the backend error if there existed or alert Successfully bought Item_name */}
               </Alert>
             </Snackbar>

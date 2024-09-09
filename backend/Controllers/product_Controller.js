@@ -43,8 +43,6 @@ const create = async(req, res)=> {
       }
       res.status(201).json({ message: 'Product created successfully', productId: result.insertId });
     });
-  
-    connection.end();
   };
 
 const search =async(req,res)=>{
